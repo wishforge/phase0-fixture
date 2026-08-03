@@ -6,6 +6,3 @@ Each `fixturelib/issue_NN.py` is implemented by exactly one task; the matching t
 task interferes with another.
 
 Run locally: `python3 -m unittest discover -s tests -v`
-
-- Merge queue smoke test (2026-08-03)
-- Merge queue smoke test 2 (2026-08-03)
