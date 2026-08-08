@@ -1,4 +1,4 @@
-# Phase 0 Fixture
+# WishForge phase0 fixture
 
 Deterministic, independent, verifiable tasks for the WishForge Phase 0 CubeSandbox pilot.
 Each `fixturelib/issue_NN.py` is implemented by exactly one task; the matching test in
