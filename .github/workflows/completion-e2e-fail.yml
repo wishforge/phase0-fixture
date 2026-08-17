@@ -1,0 +1,9 @@
+name: completion-e2e-fail
+on: [pull_request]
+permissions: {}
+jobs:
+  completion-e2e-fail:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          if [ -f docs/trigger-fail ]; then exit 1; fi
