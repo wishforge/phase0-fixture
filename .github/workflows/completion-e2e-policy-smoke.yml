@@ -1,0 +1,11 @@
+name: completion-e2e-policy-smoke
+
+on:
+  workflow_dispatch:
+
+jobs:
+  stub:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stub
+        run: echo "completion-e2e-policy-smoke workflow ok"
