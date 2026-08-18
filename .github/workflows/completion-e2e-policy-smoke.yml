@@ -1,0 +1,9 @@
+name: completion-e2e-policy-smoke
+on:
+  workflow_dispatch:
+permissions: {}
+jobs:
+  completion-e2e-policy-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "exit 0"
