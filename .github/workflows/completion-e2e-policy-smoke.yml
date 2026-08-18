@@ -1,0 +1,16 @@
+name: completion-e2e-policy-smoke
+
+# Manual-only stub used to exercise the pipeline-config write path without
+# affecting required checks (never runs on push or pull_request).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  policy-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo stub
+        run: 'echo "completion e2e policy smoke: github positive (allowlisted)"'
