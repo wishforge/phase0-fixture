@@ -1,5 +1,7 @@
 name: completion-e2e-fail
-on: [pull_request]
+on:
+  pull_request:
+  merge_group:
 permissions: {}
 jobs:
   completion-e2e-fail:
